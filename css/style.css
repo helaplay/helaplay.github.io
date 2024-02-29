@@ -1,0 +1,53 @@
+
+.hero-image{
+    background-image: url("/src/img/hero.png");
+    height: 100vh; /* Set height to 100% of viewport height */
+    width: 100%; /* Set width to 100% of viewport width */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image within the section */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    overflow-x: hidden;
+}
+
+.bg-image{
+    background-image: url("/src/img/hero.png");
+    filter: blur(10px);
+    opacity:0.5;
+}
+
+.navbar {
+    transition: background-color 0.5s ease;
+
+    border-radius: 0;
+}
+
+.navbar a.navbar-brand,
+.navbar a.navbar-toggler-icon {
+    color: white !important;
+    text-shadow: 2px 2px black;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    text-shadow: 2px 2px black;
+}
+
+.navbar.scrolled {
+    background-color: rgba(35, 34, 34, 0.5); /* Change the background color here */
+    backdrop-filter: blur(10px); /* Add the blur effect here */
+}
+.full-size{
+    height: 100vh; /* Set height to 100% of viewport height */
+    width: 100%; /* Set width to 100% of viewport width */
+}
+
+.blur-view{
+    background-color: rgba(255, 250, 250, 0.13); /* Change the background color here */
+    backdrop-filter: blur(50px); /* Add the blur effect here */
+}
+.fs-shadow{
+    text-shadow: 2px 2px black;
+}
+.text-justify{
+    text-align: justify;
+}
